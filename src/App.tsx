@@ -71,7 +71,10 @@ function App() {
     <>
       {/* Section Wrapper */}
       <section className="flex min-h-screen flex-col items-center justify-between">
-        <div className="m-5">{/* Start here */}</div>
+        <div className="m-5">
+          {/* Start here */}
+          <img src={imgPath + "illustration.svg"} alt="illustration" />
+        </div>
       </section>
     </>
   );
